@@ -1,0 +1,192 @@
+@font-face {
+   font-family:"Playfair-Display-BlackItalic";
+
+   src:url("assets/fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+       url("assets/fonts/PlayfairDisplay-BlackItalic.woff") format("woff"),
+       url("assets/fonts/PlayfairDisplay-BlackItalic.otf") format("opentype");
+
+   font-style: italic;
+   font-weight: 700;
+}
+
+@font-face {
+   font-family:"Playfair-Display-Regular";
+
+   src:url("assets/fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+       url("assets/fonts/PlayfairDisplay-Regular.woff") format("woff"),
+       url("assets/fonts/PlayfairDisplay-Regular.otf") format("opentype");
+
+   font-style: normal;
+   font-weight: 400;
+}
+
+@font-face {
+   font-family:"Roboto-Light";
+
+   src:url("assets/fonts/Roboto-Light.woff2") format("woff2"),
+       url("assets/fonts/Roboto-Light.woff") format("woff"),
+       url("assets/fonts/Roboto-Light.otf") format("opentype");
+
+   font-style: normal;
+   font-weight: 300;
+}
+
+@font-face {
+   font-family:"Roboto-Regular";
+
+   src:url("assets/fonts/Roboto-Regular.woff2") format("woff2"),
+       url("assets/fonts/Roboto-Regular.woff") format("woff"),
+       url("assets/fonts/Roboto-Regular.otf") format("opentype");
+
+   font-style: normal;
+   font-weight: 400;
+}
+
+
+.navbar-inverse{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand img{
+	height: 25px;
+}
+
+.header_icon{
+	background-image: url(assets/img/post-image.jpg);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-icon__text{
+	text-align: center;
+	margin-top: 0;
+	font-family:"Playfair-Display-BlackItalic";
+	color: #fff;
+	position: absolute;
+	top: 200px;
+	font-size: 5em;
+}
+
+.header_icon__arrow{
+  color: #fff;
+  width: auto;
+  height: 100px;
+  margin-top: 450px;
+}
+
+.icon_calendar{
+  position: relative;
+  margin-top: 20px;
+  color: #707070;
+
+}
+.icon_calendar__logo{
+  width: auto;
+  height: 20px;
+  position: absolute;
+  color: #707070;
+}
+
+.icon_calendar__text{
+  margin-top: 20px;
+  color: #707070;
+}
+
+.icon_calendar__img{
+  width: auto;
+  height: 40px;
+  color: #ffffff;
+  background-color: red;
+  margin-left: 10px;
+}
+
+.fas fa-comment{
+  color: #707070;
+  background-color: red;
+}
+
+
+.img_icon__photo{
+  border-radius: 50%;
+  margin-top: 100px;
+  width: auto;
+  height: 200px;
+}
+
+.img_icon__text1{
+  font-family: Playfair-Display-BlackItalic;
+  display: inline-block;
+  position: absolute;
+  margin-top: 150px;
+}
+
+.img_icon__text2{
+  font-family: Roboto-Light;
+  color: #707070;
+  position: absolute;
+  display: inline-block;
+  margin-top: 190px;
+}
+
+.img_icon__text3{
+  font-family: Roboto-Light;
+  color: #707070;
+  position: absolute;
+  display: inline-block;
+  margin-top: 210px;
+}
+
+.img_icon__text4{
+  font-family: Roboto-Light;
+  color: #707070;
+  position: absolute;
+  display: inline-block;
+  margin-top: 150px;
+}
+
+.angle{
+  border: 1px solid #707070;
+}
+
+@media (max-width: 400px){
+
+.angle_left__text{
+  font-family: Roboto-Regular;
+  color: #707070;
+  margin-right: 50px;
+}
+
+.angle_right__text{
+  font-family: Roboto-Regular;
+  color: #707070;
+}
+}
+
+.fav_icon{
+  margin-top: 1000px;
+}
+.fav_icon__left{
+  color: #707070;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.fav_icon__right{
+  color: #707070;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 1.5em;
+}
+
+.jumbotron{
+  margin-top: 900px;
+  margin-bottom: 0;
+}
+
+footer{
+  background-color: #121619;
+}
